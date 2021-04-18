@@ -22,14 +22,14 @@ $ git clone https://github.com/summer-0511/docker1.git
 创建父级镜像
 
 ```txt
-$ cd docker-uploadlabs/upload-labs/docker
+$ cd docker1/upload-labs/docker
 $ docker build -t upload-labs .
 ```
 
 创建子级镜像（每道题一个子镜像）
 
 ```txt
-$ cd docker-uploadlabs/Pass/Pass-01
+$ cd docker1/Pass/Pass-01
 $ docker build -t upload-labs/pass01 .
 ```
 
