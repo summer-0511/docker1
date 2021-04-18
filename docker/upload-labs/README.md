@@ -22,7 +22,7 @@ $ git clone https://github.com/summer-0511/docker1.git
 创建父级镜像
 
 ```txt
-$ cd docker1/upload-labs/docker
+$ cd docker1/docker
 $ docker build -t upload-labs .
 ```
 
